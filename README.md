@@ -4,7 +4,7 @@ Python 3.6
 Flask 1.1.1
 
 # Installation:
-###### Docker:
+### Docker:
 > build a docker image
 ```
 docker build -t <imageName:version> .
@@ -13,8 +13,12 @@ docker build -t <imageName:version> .
 ```
 docker run -d <app_name>
 ```
+> Browse to 
+```
+http://localhost:8080
+```
 
-###### Local:
+### Local:
 
 > Create a virtual environment inside the application:
 ```
